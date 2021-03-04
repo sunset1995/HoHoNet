@@ -5,6 +5,9 @@ This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Underst
 
 **[Note]: This README is not yet ready.**
 
+#### News
+- March 4, 2021: A new backbone **HarDNet** is included, which shows better speed and depth accuracy.
+
 
 ## Dataset
 Detail instruction for preparing the datas for each dataset and task:
@@ -55,6 +58,18 @@ The overall file strucure of the datasets is depicted as follow:
         └── area_[1|2|3|4|5a|5b|6]
             ├── rgb/*png
             └── semantic/*png
+
+
+## Pretrained weight
+Links to `hohonet_ckpt.zip`: [download on Google drive](https://drive.google.com/file/d/1i1M6FYjPEnqxjBD-AskQuMmdbZ5d7678/view?usp=sharing) or [download on Dropbox](https://www.dropbox.com/s/7e80j646yqh78vo/hohonet_ckpt.zip?dl=0).
+
+
+
+## Develop
+See:
+- **TODO** to implement your own dataset
+- **TODO** to implement your own model component
+
 
 ---
 # Reproduction
