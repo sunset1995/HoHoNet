@@ -3,6 +3,8 @@
 This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features
 ](https://arxiv.org/abs/2011.11498)".
 
+**[Note]: This README is not yet ready.**
+
 
 ## Dataset
 Detail instruction for preparing the datas for each dataset and task:
