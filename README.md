@@ -13,12 +13,13 @@ This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Underst
 Detail instruction for preparing the datas for each dataset and task:
 - `Matterport3d` x `Layout`
     - see [Prepare MatterportLayout dataset](README_prepare_data_mp3d_layout.md)
-- `Matterport3d` x `Depth (BiFuse's stitched)`
+- `Matterport3d` x `Depth (BiFuse's stitching)`
     - We use the rgb-d stitching provided by [BiFuse](https://github.com/Yeh-yu-hsuan/BiFuse)
     - Put their `mp3d_align/` under `data/`
     - Download data split via [Google drive](https://drive.google.com/drive/folders/1raT3vRXnQXRAQuYq36dE-93xFc_hgkTQ?usp=sharing) or via [Dropbox](https://www.dropbox.com/sh/b014nop5jrehpoq/AACWNTMMHEAbaKOO1drqGio4a?dl=0) and put them under `data/matterport3d/`.
-- `Matterport3d` x `Depth (our new stitched)`
+- `Matterport3d` x `Depth (our new stitching)`
     - We remove the depth noise in BiFuse's stitching
+    - This is not the version we use in our paper
     - **TODO:** release new stiching code with experiment results on it
 - `Stanford2d3d` x `Depth`: **TODO**
 - `Stanford2d3d` x `Semantic segmentation`: **TODO**
