@@ -11,7 +11,7 @@ This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Underst
 
 ## Dataset
 Detail instruction for preparing the datas for each dataset and task:
-- `Matterport3d` x `Layout`: **TODO**
+- `Matterport3d` x `Layout`: see [Prepare MatterportLayout dataset](README_prepare_data_mp3d_layout.md)
 - `Matterport3d` x `Depth (BiFuse's stitched)`: **TODO**
 - `Matterport3d` x `Depth (our new stitched)`: **TODO**
 - `Stanford2d3d` x `Depth`: **TODO**
@@ -37,13 +37,13 @@ The overall file strucure of the datasets is depicted as follow:
     │                              # Release new stitching code with new experiments later.
     │
     ├── mp3d_layout                # Please follow README_prepare_data_mp3d_layout.md
-    │   ├── train
+    │   ├── train_no_occ
     │   │   ├── img/*png
     │   │   └── label_cor/*txt
-    │   ├── valid
+    │   ├── valid_no_occ
     │   │   ├── img/*png
     │   │   └── label_cor/*txt
-    │   └── test
+    │   └── test_no_occ
     │       ├── img/*png
     │       └── label_cor/*txt
     │
