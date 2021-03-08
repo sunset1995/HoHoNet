@@ -77,12 +77,14 @@ See:
 - **TODO** to implement your own model component
 
 
+<br/><br/>
+
 ---
 # Reproduction
 Below provides guide to reproduce the training and numerical results in our paper.
 
 ## Reproduction: training
-The configs for reproducing the experiments are in `config/`.
+The configs for reproducing the experiments are all in `config/`.
 
 Just run:
 ```
@@ -107,7 +109,7 @@ It measures averaged feed-forward times of the model.
 The results reported in our paper are obtained on a GeForce RTX 2080.
 
 ## Reproduction: quantitative evaluation
-Please make sure the dataset and the pretrained weights are organized as the instruction above.
+Please make sure the dataset and the trained weights are organized as the instruction above.
 If not, the config should be updated accordinly and you should directly assign the path to the trained weight to the testing script via `--pth`.
 
 
