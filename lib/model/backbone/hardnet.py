@@ -1,3 +1,6 @@
+''' Copy-paste from
+https://github.com/PingoLH/Pytorch-HarDNet
+'''
 import os
 import torch
 import torch.nn as nn
