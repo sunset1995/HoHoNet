@@ -5,6 +5,8 @@ This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Underst
 
 **[Note]: This README is not yet ready.**
 
+![teaser](./imgs/repo_teaser.jpg)
+
 #### News
 - March 4, 2021: A new backbone **HarDNet** is included, which shows better speed and depth accuracy.
 
