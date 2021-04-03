@@ -23,8 +23,10 @@ Detail instruction for preparing the datas for each dataset and task:
     - We remove the depth noise in BiFuse's stitching
     - This is not the version we use in our paper
     - **TODO:** release new stiching code with experiment results on it
-- `Stanford2d3d` x `Depth`: **TODO**
-- `Stanford2d3d` x `Semantic segmentation`: **TODO**
+- `Stanford2d3d` x `Depth`:
+    - see [Prepare Stanford2d3d dataset](README_prepare_data_s2d3d.md)
+- `Stanford2d3d` x `Semantic segmentation`:
+    - see [Prepare Stanford2d3d dataset](README_prepare_data_s2d3d.md)
 
 The overall file strucure of the datasets is depicted as follow:
 
@@ -56,14 +58,14 @@ The overall file strucure of the datasets is depicted as follow:
     │       ├── img/*png
     │       └── label_cor/*txt
     │
-    ├── stanford2D3D               # Please follow README_prepare_data_s2d3d_depth.md
+    ├── stanford2D3D               # Please follow README_prepare_data_s2d3d.md
     │   ├── area_[1|2|3|4|5a|5b|6]
     │   │   ├── img/*png
     │   │   └── depth/*png
     │   ├── small_[train|valid|test].txt
     │   └── fold[1|2|3]_[train|valid].txt
     │
-    └── s2d3d_sem                  # Please follow README_prepare_data_s2d3d_sem.md
+    └── s2d3d_sem                  # Please follow README_prepare_data_s2d3d.md
         └── area_[1|2|3|4|5a|5b|6]
             ├── rgb/*png
             └── semantic/*png
