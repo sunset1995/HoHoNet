@@ -6,8 +6,8 @@ This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Underst
 ![teaser](./assets/repo_teaser.jpg)
 
 #### News
-- April 3, 2021: Release inference code, jupyter notebook and visualization tools. Guide for reproduction is also finished.
-- March 4, 2021: A new backbone **[HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)** is included, which shows better speed and depth accuracy.
+- **April 3, 2021**: Release inference code, jupyter notebook and visualization tools. Guide for reproduction is also finished.
+- **March 4, 2021**: A new backbone **[HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)** is included, which shows better speed and depth accuracy.
 
 
 ## Pretrained weight
