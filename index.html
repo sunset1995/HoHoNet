@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HoHoNet</title>
+    <meta name="keywords" content="HoHoNet, Panorama, Layout estimation, Depth estimation, Semantic segmentation">
+    <meta name="description" content="A versatile and efficient framework for holistic understanding of an indoor 360-degree panorama.">
+    <meta property="og:title" content="HoHoNet">
+    <meta name="og:description" content="A versatile and efficient framework for holistic understanding of an indoor 360-degree panorama.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sunset1995.github.io/HoHoNet/">
+    <meta property="og:site_name" content="Cheng Sun">
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400|Roboto+Condensed">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="teaser">
+        <h1>HoHoNet</h1>
+        <h2>360 Indoor Holistic Understanding with Latent Horizontal Features</h2>
+
+        <section role="authors">
+            <header>
+                <a href="https://sunset1995.github.io/">Cheng Sun</a>
+                <a href="http://aliensunmin.github.io/">Min Sun</a>
+                <a href="https://htchen.github.io/">Hwann-Tzong Chen</a>
+            </header>
+            <div>National Tsing Hua University</div>
+        </section>
+
+        <section role="affiliation">
+            <div><a href="http://cvpr2021.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition 2021 (CVPR 2021)</a></div>
+        </section>
+    </div>
+
+    <main>
+
+        <h3>Abstract</h3>
+        <section role='teaser-img'>
+            <img src="overview.png">
+        </section>
+        <p>
+            We present HoHoNet, a versatile and efficient framework for holistic understanding of an indoor 360-degree panorama using a Latent Horizontal Feature (LHFeat).
+            The compact LHFeat flattens the features along the vertical direction and has shown success in modeling per-column modality for room layout reconstruction.
+            HoHoNet advances in two important aspects.
+            First, the deep architecture is re-designed to run faster with improved accuracy.
+            Second, we propose a novel horizon-to-dense module, which relaxes the per-column output shape constraint, allowing per-pixel dense prediction from LHFeat.
+            HoHoNet is fast: It runs at 52 FPS and 110 FPS with ResNet-50 and ResNet-34 backbones respectively, for modeling dense modalities from a high-resolution 512×1024 panorama.
+            HoHoNet is also accurate.
+            On the tasks of layout estimation and semantic segmentation, HoHoNet achieves results on par with current state-of-the-art. 
+            On dense depth estimation, HoHoNet outperforms all the prior arts by a large margin.
+        </p>
+
+        <h3>Links</h3>
+        <p>
+            <a href="https://arxiv.org/abs/2011.11498">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            [Paper (arxiv)]
+            </a>
+
+            <a href="https://github.com/sunset1995/HoHoNet">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            [Codes]
+            </a>
+        </p>
+
+        <p>
+            <h4>News</h4>
+            <ul>
+                <li>April 3, 2021: Release inference code, jupyter notebook and visualization tools. Guide for reproduction is also finished.</li>
+                <li>March 4, 2021: A new backbone HarDNet is included, which shows better speed and depth accuracy.</li>
+            </ul>
+        </p>
+
+
+        <h3>Demo Results</h3>
+
+        <section role="gallery">
+            <h4>Layout visualization</h4>
+            <img src="vis_layout_2d.jpg">
+            <img src="vis_layout_3d.jpg">
+
+            <hr>
+            <h4>Depth visualization</h4>
+            <img src="vis_depth_2d.jpg">
+            <img src="vis_depth_3d.jpg">
+
+            <hr>
+            <h4>Semantic segmentation visualization</h4>
+            <img src="vis_sem.jpg">
+        </section>
+
+        <h3>BibTeX</h3>
+        <p>Released after CVPR 2021.</p>
+<pre></pre>
+    </main>
+
+</body>
+</html>
