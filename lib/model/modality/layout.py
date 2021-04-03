@@ -113,7 +113,7 @@ class LayoutEstimator(nn.Module):
         for j in range(len(cor)):
             cor_id[j*2] = cor[j, 0], cor[j, 1]
             cor_id[j*2 + 1] = cor[j, 0], cor[j, 2]
-        return {'cor_id': cor_id}
+        return {'cor_id': cor_id, 'y_bon_': y_bon_, 'y_cor_': y_cor_}
 
     def compute_losses(self, x_emb, batch):
         gt_bon = batch['bon'] * self.bon_scale
