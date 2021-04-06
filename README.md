@@ -15,6 +15,8 @@ Links to trained weights `ckpt/`: [download on Google drive](https://drive.googl
 
 
 ## Inference
+In below, we use an out-of-training-distribution 360 image from PanoContext as an example.
+
 ### Jupyter notebook
 See [infer_depth.ipynb](infer_depth.ipynb), [infer_layout.ipynb](infer_layout.ipynb), and [infer_sem.ipynb](infer_sem.ipynb) for interactive demo and visualization.
 
