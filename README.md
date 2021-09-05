@@ -1,7 +1,6 @@
 # HoHoNet
 
-This is the implementation of our CVPR'21 "[HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features
-](https://arxiv.org/abs/2011.11498)".
+Code for our paper in CVPR 2021: **HoHoNet: 360 Indoor Holistic Understanding with Latent Horizontal Features** ([paper](https://arxiv.org/abs/2011.11498), [video](https://www.youtube.com/watch?v=xXtRaRKmMpA)).
 
 ![teaser](./assets/repo_teaser.jpg)
 
@@ -68,4 +67,14 @@ Please see [README_reproduction.md](README_reproduction.md) for the guide to:
 
 
 ## Citation
-Released after CVPR 2021.
+```
+@inproceedings{SunSC21,
+  author    = {Cheng Sun and
+               Min Sun and
+               Hwann{-}Tzong Chen},
+  title     = {HoHoNet: 360 Indoor Holistic Understanding With Latent Horizontal
+               Features},
+  booktitle = {CVPR},
+  year      = {2021},
+}
+```
