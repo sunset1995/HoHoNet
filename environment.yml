@@ -18,4 +18,3 @@ dependencies:
   - opencv
   - scikit-learn
   - openexr-python
-prefix: /home/kimbo/.miniconda/envs/hoho
