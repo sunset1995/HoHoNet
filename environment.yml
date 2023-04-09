@@ -1,0 +1,20 @@
+# The sensible export command: conda env export --from-history > environment.yml
+name: hoho
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - tqdm
+  - pytorch
+  - cudatoolkit=10.2
+  - torchvision
+  - numpy
+  - yacs
+  - shapely
+  - scipy
+  - imageio
+  - opencv
+  - scikit-learn
+  - openexr-python
